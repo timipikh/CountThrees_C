@@ -6,7 +6,7 @@ CP := cp
 CD := cd
 
 ServerCountThrees:
-	$(CC) -o ServerCountThrees ServerCountThrees.c readInt32BitLE.c -I.
+	$(CC) -o countThrees countThrees.c readInt32BitLE.c -I.
 
 test:
 	$(MD) ../build
